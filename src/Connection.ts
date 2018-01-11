@@ -146,7 +146,7 @@ class Connection extends EventEmitter {
     try {
       data = JSON.parse(message);
     } catch (e) {
-      return ;/*console.warn(`invalid stratum message:`, message);*/
+      return; /*console.warn(`invalid stratum message:`, message);*/
     }
     // it's a response
     if (data.id) {
