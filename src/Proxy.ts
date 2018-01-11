@@ -303,7 +303,6 @@ class Proxy extends EventEmitter {
     });
     this.wss.close();
     this.online = false;
-    /*console.log(`💀`);*/
   }
 }
 export default Proxy;
